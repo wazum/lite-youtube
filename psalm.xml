@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<psalm
+    errorLevel="3"
+    resolveFromConfigFile="false"
+    autoloader="vendor/autoload.php"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://getpsalm.org/schema/config"
+    xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+    findUnusedVariablesAndParams="true"
+    findUnusedCode="true"
+>
+    <projectFiles>
+        <directory name="Classes"/>
+        <directory name="Tests"/>
+    </projectFiles>
+
+    <issueHandlers>
+        <PropertyNotSetInConstructor errorLevel="suppress" />
+        <UndefinedClass errorLevel="suppress" />
+        <UndefinedConstant errorLevel="suppress" />
+        <PossiblyUndefinedMethod errorLevel="suppress" />
+        <MixedAssignment errorLevel="suppress" />
+        <MixedArgument errorLevel="suppress" />
+        <MixedMethodCall errorLevel="suppress" />
+        <MixedPropertyFetch errorLevel="suppress" />
+        <UndefinedMethod errorLevel="suppress" />
+        <UnusedClass>
+            <errorLevel type="suppress">
+                <directory name="Tests" />
+                <directory name="Classes/Infrastructure" />
+            </errorLevel>
+        </UnusedClass>
+        <PossiblyUnusedMethod>
+            <errorLevel type="suppress">
+                <directory name="Classes/Domain/Model" />
+            </errorLevel>
+        </PossiblyUnusedMethod>
+        <MissingOverrideAttribute errorLevel="suppress" />
+        <RedundantCast errorLevel="suppress" />
+    </issueHandlers>
+</psalm>

@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Wazum\LiteYoutubeRenderer\:
+    resource: '../Classes/*'
+
+  Wazum\LiteYoutubeRenderer\Infrastructure\Typo3\Renderer\LiteYouTubeRenderer:
+    public: true
+    tags:
+      - name: 'renderer.file'

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" product-name="lite_youtube">
+    <body>
+      <trans-unit id="sys_file_reference.tab.lytYoutube">
+        <source>YouTube (Lite)</source>
+        <target>YouTube (Lite)</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.palette.lytYoutube">
+        <source>YouTube Options</source>
+        <target>YouTube-Optionen</target>
+      </trans-unit>
+
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_autoload">
+        <source>Autoload (lazy iframe on view)</source>
+        <target>Video automatisch laden</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_no_cookie">
+        <source>Use youtube-nocookie.com</source>
+        <target>Datenschutz (youtube-nocookie.com verwenden)</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_short">
+        <source>Enable Shorts mode on small screens</source>
+        <target>Shorts-Format auf kleinen Bildschirmen</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_show_title">
+        <source>Show video title</source>
+        <target>Video-Titel anzeigen</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_poster_loading">
+        <source>Poster loading</source>
+        <target>Vorschaubild-Laden</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_playlist_id">
+        <source>Playlist ID</source>
+        <target>Playlist-ID (optional)</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_video_start_at">
+        <source>Start at specific second</source>
+        <target>Startzeit in Sekunden (optional)</target>
+      </trans-unit>
+
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_param_controls">
+        <source>Show controls</source>
+        <target>Bedienelemente anzeigen</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_param_rel">
+        <source>Show related videos</source>
+        <target>Ähnliche Videos nur vom gleichen Kanal</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_param_loop">
+        <source>Loop</source>
+        <target>Video wiederholen</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.tx_liteyoutuberenderer_param_mute">
+        <source>Mute</source>
+        <target>Video stumm starten</target>
+      </trans-unit>
+
+      <trans-unit id="sys_file_reference.lyt_posterloading.lazy">
+        <source>Lazy</source>
+        <target>Verzögert laden</target>
+      </trans-unit>
+      <trans-unit id="sys_file_reference.lyt_posterloading.eager">
+        <source>Eager</source>
+        <target>Sofort laden</target>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
